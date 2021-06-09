@@ -1,0 +1,12 @@
+from tkinter import *
+w_name=Tk()
+w_name.title('Untitled')
+l1=Label(w_name,text='First name').grid(row=0,column=0)
+l2=Label(w_name,text='Last name').grid(row=1,column=0)
+e1=Entry(w_name).grid(row=0,column=1)
+e2=Entry(w_name).grid(row=1,column=1)
+Radiobutton(w_name,text='male',value=1).grid(row=2,column=0)
+Radiobutton(w_name,text='female',value=2).grid(row=2,column=1)
+Checkbutton(w_name,text='Ice cream').grid(row=3,column=0)
+Checkbutton(w_name,text='salad').grid(row=3,column=1)
+mainloop()
